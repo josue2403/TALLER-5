@@ -1,37 +1,37 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML (HTML5) -->
 <html>
 <head>
-  <title>Ingreso de datos de cliente</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Ingreso de datos de cliente</title> <!-- Título de la página -->
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Vinculación a una hoja de estilos externa -->
 </head>
 <body>
-  <div class="container">
-    <h2>Ingreso de cliente</h2>
-    <form id="registrationForm" onsubmit="return showSuccessMessage()">
-        <label>Nombres:</label>
-        <input type="text" name="name" required>
+  <div class="container"> <!-- Contenedor principal de la página -->
+    <h2>Ingreso de cliente</h2> <!-- Encabezado de segundo nivel -->
+    <form id="registrationForm" onsubmit="return showSuccessMessage()"> <!-- Formulario de ingreso de cliente -->
+        <label>Nombres:</label> <!-- Etiqueta para el campo de nombres -->
+        <input type="text" name="name" required> <!-- Campo de entrada de texto para nombres -->
         <br>
-        <label>Email:</label>
-        <input type="email" name="email" required>
+        <label>Email:</label> <!-- Etiqueta para el campo de correo electrónico -->
+        <input type="email" name="email" required> <!-- Campo de entrada de correo electrónico -->
         <br>
-        <label>Cédula:</label>
-        <input type="text" name="cedula" required>
+        <label>Cédula:</label> <!-- Etiqueta para el campo de cédula -->
+        <input type="text" name="cedula" required> <!-- Campo de entrada de texto para cédula -->
         <br>
-        <label>Fecha de Nacimiento:</label>
-        <input type="date" name="birth" required>
+        <label>Fecha de Nacimiento:</label> <!-- Etiqueta para el campo de fecha de nacimiento -->
+        <input type="date" name="birth" required> <!-- Campo de entrada de fecha -->
         <br>
-        <label>Teléfono:</label>
-        <input type="text" name="phone" required>
+        <label>Teléfono:</label> <!-- Etiqueta para el campo de teléfono -->
+        <input type="text" name="phone" required> <!-- Campo de entrada de texto para teléfono -->
         <br>
-        <label>Dirección:</label>
-        <input type="text" name="direccion" required>
+        <label>Dirección:</label> <!-- Etiqueta para el campo de dirección -->
+        <input type="text" name="direccion" required> <!-- Campo de entrada de texto para dirección -->
 
-        <button type="submit" name="register">Registrar cliente</button>
+        <button type="submit" name="register">Registrar cliente</button> <!-- Botón para enviar el formulario -->
     </form>
   </div>
 
-  <div id="notificacion" class="notificacion"></div>
+  <div id="notificacion" class="notificacion"></div> <!-- Contenedor para notificaciones -->
 
-  <script src="index.js"></script>
+  <script src="index.js"></script> <!-- Vinculación a un archivo JavaScript externo -->
 </body>
 </html>
