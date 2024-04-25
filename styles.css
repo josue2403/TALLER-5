@@ -1,0 +1,55 @@
+body {
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: transparent;
+  text-align: center;
+  margin: auto; 
+}
+
+h2 {
+  margin-bottom: 20px;
+  background-color: #51578d;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"] {
+  width: calc(100% - 10px); 
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #51578d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.notificacion {
+  display: none;
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
